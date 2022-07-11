@@ -1,0 +1,55 @@
+@charset "utf-8";
+*{
+margin:0;
+padding:0;
+text-decoration: none;
+list-style:none;
+}
+body {
+ margin: auto;
+
+}
+header{
+  width: 95%;
+  height: 200px;
+  border-bottom: 1px solid green;
+  margin: auto;
+}
+header figure{
+  width: 200px;
+  height: 120px;
+  float: left;
+  margin: 5px 0;
+}
+h1{
+  
+ align-items: center;
+  }
+
+nav{
+  width: 500px;
+  height: 30px;
+  float: right;
+  margin-top: 130px;
+}
+nav ul li{
+  width: 150px;
+  height: 30px;
+  background: grey;
+  float: left;
+  margin: 0 7px;
+  line-height: 30px;
+  text-align: center;
+}
+nav ul li a{
+  color: black;
+  font: normal 14px arial;
+
+}
+
+.DadosAjuda{
+border:outset;
+}
+.relato{
+    border: outset;
+}

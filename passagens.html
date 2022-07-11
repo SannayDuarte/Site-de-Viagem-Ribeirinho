@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ribeirinho.Passagem</title>
+  <link rel="stylesheet" href="passagem.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+  <header>
+    <figure>
+      <img src="z Picsart_22-07-10_00-04-01-234.png" height="250px" alt="Html 5" title="html 5" />
+    </figure>
+    <h1>Ribeirinho Viagem</h1>
+    <nav>
+      <ul>
+        <li><a href="home-css.html">Pagina Inicial</a></li>
+        <li><a href="ajuSite.html">Ajuda</a></li>
+      </ul>
+    </nav>
+  </header>
+</body>
+
+<div class="comprar">
+  <form class="row g-3">
+    <div class="col-md-6">
+      <label for="inputnome" class="form-label">Nome do Passageiro</label>
+      <input type="text" class="form-control" id="name">
+    </div>
+    <div class="col-md-6">
+      <label for="inputnome" class="form-label">Sobrenome do Passageiro</label>
+      <input type="text" class="form-control" id="inputname">
+    </div>
+    <div class="col-12">
+      <label for="inputem" class="form-label">Email</label>
+      <input type="email" class="form-control" id="inputAddress" placeholder="digite o email">
+    </div>
+    <div class="col-12">
+      <label for="inputAddress2" class="form-label">Numero para Contato</label>
+      <input type="tel" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+    </div>
+    <div class="col-md-6">
+      <label for="inputCity" class="form-label">Cidade de Origem</label>
+      <input type="text" class="form-control" id="inputCity">
+    </div>
+    <div class="col-md-6">
+      <label for="inputCity" class="form-label">Cidade de Destino</label>
+      <input type="text" class="form-control" id="inputCity">
+    </div>
+    <div class="col-md-4">
+      <label for="inputState" class="form-label"></label>
+      <select id="inputState" class="form-select">
+        <option selected>Metodo de Viagem</option>
+        <option>Barco</option>
+        <option>Aviao</option>
+        <option>Onibus</option>
+      </select>
+    </div>
+    <div class="col-md-4">
+      <label for="inputState" class="form-label"></label>
+      <select id="inputState" class="form-select">
+        <option selected>Quantidade de malas</option>
+        <option>1</option>
+        <option>2</option>
+      </select>
+    </div>
+    <div class="escolher">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="gridCheck">
+        <label class="form-check-label" for="gridCheck">
+          Somente Ida
+        </label>
+        <div class="escolher">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck">
+            <label class="form-check-label" for="gridCheck">
+              Somente Volta
+            </label>
+          </div>
+          <div class="escolher">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck">
+              <label class="form-check-label" for="gridCheck">
+                Ida e Volta
+              </label>
+            </div>
+          </div>
+          <div class="comprar">
+            <button type="submit" class="btn btn-primary">Comprar</button>
+          </div>
+        </div>
+  </form>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  </body>
+
+</html>
